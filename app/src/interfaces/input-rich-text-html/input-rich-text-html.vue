@@ -186,6 +186,7 @@ import 'tinymce/plugins/imagetools/plugin';
 import 'tinymce/plugins/insertdatetime/plugin';
 import 'tinymce/plugins/link/plugin';
 import 'tinymce/plugins/lists/plugin';
+import 'tinymce/plugins/advlist/plugin';
 import 'tinymce/plugins/media/plugin';
 import 'tinymce/plugins/pagebreak/plugin';
 import 'tinymce/plugins/paste/plugin';
@@ -330,7 +331,7 @@ export default defineComponent({
 				content_css: false,
 				content_style: getEditorStyles(props.font as 'sans-serif' | 'serif' | 'monospace'),
 				plugins:
-					'media table hr lists image link pagebreak code insertdatetime autoresize paste preview fullscreen directionality',
+					'media table hr lists advlist image link pagebreak code insertdatetime autoresize paste preview fullscreen directionality',
 				branding: false,
 				max_height: 1000,
 				elementpath: false,
